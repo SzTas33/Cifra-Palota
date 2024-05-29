@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed';
+}
+
+.details-button{
+  background-color: #286453;
+  color: white;
+  font-weight: 600;
+}
+
+.custom-image-border{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.custom-card-style{
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.contact-section{
+  background-color: #286453;
+  color: white;
+  padding-top:50px;
+}
+
+.send-button{
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.send-button:hover{
+  border: none;
+  background-color: white;
+  color: #286453;
+}

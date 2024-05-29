@@ -1,0 +1,166 @@
+/*  basic green color: #286453 
+    secondary color: #33806a
+
+
+    basic border-radius : 20px;
+    h1 font-size: 60px; 
+*/
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed';
+}
+
+
+.nav-title{
+  font-size: 35px;
+  margin: 0;
+  margin-left: 20px;
+
+}
+
+.custom-hero-style{
+  margin-top: 0px;
+  padding: 70px 0px;
+}
+
+.hero-heading-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-heading{
+  font-weight: 900;
+  font-size: 60px;
+  color:#286453;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.hero-subheading{
+  color: #33806a;
+  font-weight: 400;
+  margin-bottom: 20px;
+
+}
+
+
+
+.custom-carousel-style{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.custom-style{
+  max-width: auto;
+}
+
+
+
+
+.hero-button{
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid #286453;
+  border-radius: 20px;
+  background-color: #286453;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.hero-button-text{
+  text-decoration: none;
+  color: white;
+  /* margin: 0 auto; */
+
+}
+
+.hero-button:hover{
+  background-color: #33806a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (min-width: 992px) {
+  .text-md-center-below {
+    text-align: left !important; /* Reset the alignment for large screens and above */
+  }
+}
+
+.hero-image-div{
+  max-width:auto;
+  padding: 0;
+
+}
+
+.hero-image{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.plan-div{
+  max-width: 600px;
+}
+
+.plan-image{
+  width:100%;
+  border-radius: 20px;
+}
+
+.plan-info{
+  margin-top: 15px;
+  /* text-align: center; */
+}
+
+.info-icon{
+  width: 45px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: end;
+}
+
+.info-description{
+  font-size: 20px;
+}
+
+.info-button{
+  margin-top: 20px;
+  background-color: #286453;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.info-button:hover{
+  background-color: #33806a;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* --------------------------------------------------------------- */
+
+.contact-section{
+  background-color: #286453;
+  color: white;
+  padding-top:50px;
+}
+
+.send-button{
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.send-button:hover{
+  border: none;
+  background-color: white;
+  color: #286453;
+}
